@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    width: 1050px;
+    padding: 10px;
+    margin: 5px;
+}
+.text{
+    margin: 0px 0px 0px 10px;
+}
+img{
+    height: 158px;
+    
+}
+.image{
+    position: relative;
+}
+.capsule{
+    position: absolute;
+    bottom: 10px;
+    right: 8px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.button{
+    position: absolute;
+    top: 30px;
+    right: 320px;
+}
+button{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
